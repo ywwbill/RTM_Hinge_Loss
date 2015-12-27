@@ -13,7 +13,9 @@ Feel free to email me at wwyang@cs.umd.edu with any questions.
 ### Input format (for your own data!):
 - Vocabuary: Each line denotes a word.
 - Corpus: Each line denotes a document in the following format
+
 		len w_0:f_0 w_1:f_1 w_2:f_2 ... w_i:f_i ... w_n:f_n
+		
 where len denotes the length of this document; w_i is the index of the i-th word in vocabulary; f_i is the frequency of w_i in this document. Zero-frequency words can be omitted.
 - Links: Each line denotes an edge and contains two integers separated by a tab (\t).
 
