@@ -7,8 +7,8 @@ Feel free to email me at wwyang@cs.umd.edu with any questions.
 - mallet.jar <http://mallet.cs.umass.edu/download.php>
 
 ### Commands to run:
-- See main() in *RTM.java to run different RTM extensions
-- See main() in SCC.java to identify strongly connected components in a given graph
+- See main() in lda.rtm/*RTM.java to run different RTM extensions
+- See main() in scc/SCC.java to identify strongly connected components in a given graph
 
 ### Input format (for your own data!):
 - Vocabuary: Each line denotes a word.
