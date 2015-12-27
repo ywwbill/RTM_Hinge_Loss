@@ -26,7 +26,9 @@ where len denotes the length of this document; w_i is the index of the i-th word
 - The quality of clusters identified by strongly connected components may not be good when the graph is too dense/sparse. I'm working on a more robust model to solve this problem.
 - Derivation of Gibbs sampling equation is available at <http://cs.umd.edu/~wwyang/files/emnlp-2015-doclink-supplementary-material.pdf>
 - Seed words are not applied because they don't make much difference according to further experiments.
-- If you use this code, please cite:
+
+
+If you use this code, please cite:
 
 	@InProceedings{Yang:Boyd-Graber:Resnik-2015,
 		Title = {Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors},
