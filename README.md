@@ -28,10 +28,10 @@ where len denotes the length of this document; w_i is the index of the i-th word
 - Seed words are not applied because they don't make much difference according to further experiments.
 - If you use this code, please cite:
 
-    @InProceedings{Yang:Boyd-Graber:Resnik-2015,
-        Title = {Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors},
-        Booktitle = {Empirical Methods in Natural Language Processing},
-        Author = {Weiwei Yang and Jordan Boyd-Graber and Philip Resnik},
-        Year = {2015},
-        Location = {Lisbon, Portugal},
-    }
+	@InProceedings{Yang:Boyd-Graber:Resnik-2015,
+		Title = {Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors},
+		Booktitle = {Empirical Methods in Natural Language Processing},
+		Author = {Weiwei Yang and Jordan Boyd-Graber and Philip Resnik},
+		Year = {2015},
+		Location = {Lisbon, Portugal},
+	}
