@@ -184,7 +184,7 @@ public class MedRTM extends RTM
 					eta[topic]*corpus.get(d).topicCounts[topic])/
 					(lambda.get(doc).get(d)*corpus.get(doc).docLength()*corpus.get(d).docLength());
 			double term2=MathUtil.sqr(param.c)*(MathUtil.sqr(eta[topic]*corpus.get(d).topicCounts[topic])+
-					2.0*eta[topic]*corpus.get(d).topicCounts[topic]*weight[i])/
+					2.0*eta[topic]*corpus.get(d).topicCounts[topic]*weight[i]*corpus.get(doc).docLength()*corpus.get(d).docLength())/
 					(2.0*lambda.get(doc).get(d)*MathUtil.sqr(corpus.get(doc).docLength()*corpus.get(d).docLength()));
 			score*=Math.exp(term1-term2);
 			i++;
